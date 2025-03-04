@@ -20,18 +20,7 @@ depositos = []
 def main():
 #---------------------------------------------------------------------------
     while True:
-        print(
-            """
-            ============= MENU =============
-
-            1 - Depositar
-            2 - Sacar
-            3 - Visualizar Extrato
-            0 - Sair
-
-            ================================
-        """
-        )
+        print(menu)
 
         opcao = int(input("Digite o número do menu que deseja acessar: "))
 
